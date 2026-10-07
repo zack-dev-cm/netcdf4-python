@@ -1263,7 +1263,7 @@ version 0.8 (svn revision 685)
    Dataset or Group method. Both attributes and variables can be compound
    types.
 
- * make sure 64-bit integer attributes converted to 32 bits when writing to
+ * make sure 64-bit integer attributes cast to int32 when writing to
    a NETCDF3 formatted file.
 
  * added nc4tonc3 utility for converted NETCDF4_CLASSIC files to NETCDF3_64BIT
